@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="meshGrad30_1" cx="40%" cy="35%" r="85%">
+      <stop offset="0%" stop-color="#ECC3BD" stop-opacity="0.25"/>
+      <stop offset="45%" stop-color="#B87B75" stop-opacity="0.35"/>
+      <stop offset="75%" stop-color="#191413"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECC3BD" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#B87B75" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Luxury Background -->
+  <rect width="1200" height="675" fill="url(#meshGrad30_1)"/>
+
+  <!-- Aesthetic Grid & Geometry Accents -->
+  <g stroke="#B87B75" stroke-opacity="0.15" stroke-width="1">
+    <line x1="40" y1="0" x2="40" y2="675"/>
+    <line x1="1160" y1="0" x2="1160" y2="675"/>
+    <line x1="0" y1="40" x2="1200" y2="40"/>
+    <line x1="0" y1="635" x2="1200" y2="635"/>
+  </g>
+
+  <!-- Central Visual Motif: Circular Aperture / Frame -->
+  <g transform="translate(600, 283.5)">
+    <circle r="175.5" fill="#0A0808" stroke="url(#borderGrad)" stroke-width="2.5"/>
+    <circle r="148.5" fill="none" stroke="#B87B75" stroke-width="1" stroke-dasharray="4 8" stroke-opacity="0.4"/>
+    <circle r="108" fill="#191413" fill-opacity="0.7"/>
+    
+    <!-- Monogram and Artwork Code -->
+    <text y="-8" font-family="'Playfair Display', serif" font-size="54" font-weight="bold" font-style="italic" fill="#ECC3BD" text-anchor="middle">
+      COLLABRIX
+    </text>
+    <text y="24" font-family="'Inter', sans-serif" font-size="16.2" font-weight="bold" fill="#B87B75" text-anchor="middle" letter-spacing="3">
+      HISTORIC REBIRTH
+    </text>
+  </g>
+
+  <!-- Top Badges -->
+  <g transform="translate(60, 75)">
+    <rect width="180" height="32" rx="16" fill="#1A1515" stroke="#B87B75" stroke-width="1.2"/>
+    <text x="90" y="21" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#ECC3BD" text-anchor="middle" letter-spacing="1">
+      AI STORYTELLING
+    </text>
+  </g>
+
+  <g transform="translate(960, 75)">
+    <rect width="180" height="32" rx="16" fill="#1A1515" stroke="#B87B75" stroke-width="1.2"/>
+    <text x="90" y="21" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#E6C2BF" text-anchor="middle">
+      4K UHD • 16:9
+    </text>
+  </g>
+
+  <!-- Bottom Editorial Details Card -->
+  <g transform="translate(60, 545)">
+    <rect width="1080" height="80" rx="16" fill="#141010" fill-opacity="0.9" stroke="#2E2424" stroke-width="1.5"/>
+    <text x="30" y="34" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="bold" fill="#F9EBE5">
+      Alexandria Library Reborn — Cinematic Doc
+    </text>
+    <text x="30" y="60" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#ECC3BD">
+      By Tariq Mansoor • Flux.1 Pro &amp; Runway Gen-3
+    </text>
+    <text x="1050" y="48" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#B87B75" text-anchor="end">
+      Commercial Ready ✓
+    </text>
+  </g>
+</svg>

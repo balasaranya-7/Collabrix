@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="meshGrad17_3" cx="40%" cy="35%" r="85%">
+      <stop offset="0%" stop-color="#E8BDCD" stop-opacity="0.25"/>
+      <stop offset="45%" stop-color="#B8728A" stop-opacity="0.35"/>
+      <stop offset="75%" stop-color="#1A1317"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8BDCD" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#B8728A" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Luxury Background -->
+  <rect width="800" height="1000" fill="url(#meshGrad17_3)"/>
+
+  <!-- Aesthetic Grid & Geometry Accents -->
+  <g stroke="#B8728A" stroke-opacity="0.15" stroke-width="1">
+    <line x1="40" y1="0" x2="40" y2="1000"/>
+    <line x1="760" y1="0" x2="760" y2="1000"/>
+    <line x1="0" y1="40" x2="800" y2="40"/>
+    <line x1="0" y1="960" x2="800" y2="960"/>
+  </g>
+
+  <!-- Central Visual Motif: Circular Aperture / Frame -->
+  <g transform="translate(400, 420)">
+    <circle r="208" fill="#0A0808" stroke="url(#borderGrad)" stroke-width="2.5"/>
+    <circle r="176" fill="none" stroke="#B8728A" stroke-width="1" stroke-dasharray="4 8" stroke-opacity="0.4"/>
+    <circle r="128" fill="#1A1317" fill-opacity="0.7"/>
+    
+    <!-- Monogram and Artwork Code -->
+    <text y="-8" font-family="'Playfair Display', serif" font-size="64" font-weight="bold" font-style="italic" fill="#E8BDCD" text-anchor="middle">
+      COLLABRIX
+    </text>
+    <text y="24" font-family="'Inter', sans-serif" font-size="19.2" font-weight="bold" fill="#B8728A" text-anchor="middle" letter-spacing="3">
+      CYBER HANBOK
+    </text>
+  </g>
+
+  <!-- Top Badges -->
+  <g transform="translate(60, 75)">
+    <rect width="180" height="32" rx="16" fill="#1A1515" stroke="#B8728A" stroke-width="1.2"/>
+    <text x="90" y="21" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#E8BDCD" text-anchor="middle" letter-spacing="1">
+      AI FASHION VISUALS
+    </text>
+  </g>
+
+  <g transform="translate(560, 75)">
+    <rect width="180" height="32" rx="16" fill="#1A1515" stroke="#B8728A" stroke-width="1.2"/>
+    <text x="90" y="21" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#E6C2BF" text-anchor="middle">
+      4K UHD • 4:5
+    </text>
+  </g>
+
+  <!-- Bottom Editorial Details Card -->
+  <g transform="translate(60, 870)">
+    <rect width="680" height="80" rx="16" fill="#141010" fill-opacity="0.9" stroke="#2E2424" stroke-width="1.5"/>
+    <text x="30" y="34" font-family="'Playfair Display', Georgia, serif" font-size="25.6" font-weight="bold" fill="#F9EBE5">
+      Cyber Hanbok — Futuristic Fashion Concept
+    </text>
+    <text x="30" y="60" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#E8BDCD">
+      By Eun-ji Park • ComfyUI AnimateDiff &amp; Kling AI 1.5
+    </text>
+    <text x="650" y="48" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#B8728A" text-anchor="end">
+      Commercial Ready ✓
+    </text>
+  </g>
+</svg>
