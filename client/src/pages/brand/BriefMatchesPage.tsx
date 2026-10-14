@@ -542,7 +542,7 @@ export const BriefMatchesPage: React.FC = () => {
       {selectedPortfolioItem && (
         <PortfolioModal
           item={selectedPortfolioItem}
-          creatorName={selectedPortfolioItem.creator?.displayName}
+        
           onClose={() => setSelectedPortfolioItem(null)}
         />
       )}
